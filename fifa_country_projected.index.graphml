@@ -1,0 +1,950 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="weight" attr.type="long"/>
+<graph edgedefault="undirected"><node id="Serbia"/>
+<node id="Qatar"/>
+<node id="Argentina"/>
+<node id="Belgium"/>
+<node id="Costa Rica"/>
+<node id="Canada"/>
+<node id="Australia"/>
+<node id="USA"/>
+<node id="Portugal"/>
+<node id="Germany"/>
+<node id="Mexico"/>
+<node id="Poland"/>
+<node id="South Korea"/>
+<node id="Ghana"/>
+<node id="Croatia"/>
+<node id="Spain"/>
+<node id="Japan"/>
+<node id="Switzerland"/>
+<node id="Brazil"/>
+<node id="Morocco"/>
+<node id="Uruguay"/>
+<node id="Ecuador"/>
+<node id="Netherlands"/>
+<node id="France"/>
+<node id="Saudi Arabia"/>
+<node id="Cameroon"/>
+<node id="Wales"/>
+<node id="Tunisia"/>
+<node id="Denmark"/>
+<node id="Iran"/>
+<node id="England"/>
+<node id="Senegal"/>
+<edge source="Serbia" target="Uruguay">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Argentina">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="Netherlands">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Canada">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="France">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Portugal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Serbia" target="USA">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="Australia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Germany">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Mexico">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Poland">
+  <data key="d0">4</data>
+</edge>
+<edge source="Serbia" target="South Korea">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Ghana">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Croatia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Serbia" target="Switzerland">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="Brazil">
+  <data key="d0">2</data>
+</edge>
+<edge source="Serbia" target="Morocco">
+  <data key="d0">3</data>
+</edge>
+<edge source="Qatar" target="South Korea">
+  <data key="d0">1</data>
+</edge>
+<edge source="Qatar" target="Ghana">
+  <data key="d0">1</data>
+</edge>
+<edge source="Qatar" target="Tunisia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Argentina" target="Uruguay">
+  <data key="d0">5</data>
+</edge>
+<edge source="Argentina" target="Ecuador">
+  <data key="d0">2</data>
+</edge>
+<edge source="Argentina" target="Netherlands">
+  <data key="d0">4</data>
+</edge>
+<edge source="Argentina" target="Belgium">
+  <data key="d0">5</data>
+</edge>
+<edge source="Argentina" target="Costa Rica">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="France">
+  <data key="d0">5</data>
+</edge>
+<edge source="Argentina" target="Portugal">
+  <data key="d0">7</data>
+</edge>
+<edge source="Argentina" target="USA">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Germany">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Mexico">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Poland">
+  <data key="d0">3</data>
+</edge>
+<edge source="Argentina" target="South Korea">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Ghana">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Cameroon">
+  <data key="d0">2</data>
+</edge>
+<edge source="Argentina" target="Croatia">
+  <data key="d0">3</data>
+</edge>
+<edge source="Argentina" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Spain">
+  <data key="d0">5</data>
+</edge>
+<edge source="Argentina" target="Denmark">
+  <data key="d0">4</data>
+</edge>
+<edge source="Argentina" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Japan">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="Switzerland">
+  <data key="d0">1</data>
+</edge>
+<edge source="Argentina" target="England">
+  <data key="d0">3</data>
+</edge>
+<edge source="Argentina" target="Brazil">
+  <data key="d0">6</data>
+</edge>
+<edge source="Argentina" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Argentina" target="Morocco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Belgium" target="Uruguay">
+  <data key="d0">3</data>
+</edge>
+<edge source="Belgium" target="Ecuador">
+  <data key="d0">3</data>
+</edge>
+<edge source="Belgium" target="Netherlands">
+  <data key="d0">4</data>
+</edge>
+<edge source="Belgium" target="Canada">
+  <data key="d0">1</data>
+</edge>
+<edge source="Belgium" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="Belgium" target="Portugal">
+  <data key="d0">4</data>
+</edge>
+<edge source="Belgium" target="USA">
+  <data key="d0">2</data>
+</edge>
+<edge source="Belgium" target="Germany">
+  <data key="d0">3</data>
+</edge>
+<edge source="Belgium" target="Poland">
+  <data key="d0">3</data>
+</edge>
+<edge source="Belgium" target="Ghana">
+  <data key="d0">5</data>
+</edge>
+<edge source="Belgium" target="Cameroon">
+  <data key="d0">2</data>
+</edge>
+<edge source="Belgium" target="Croatia">
+  <data key="d0">4</data>
+</edge>
+<edge source="Belgium" target="Wales">
+  <data key="d0">2</data>
+</edge>
+<edge source="Belgium" target="Spain">
+  <data key="d0">4</data>
+</edge>
+<edge source="Belgium" target="Denmark">
+  <data key="d0">4</data>
+</edge>
+<edge source="Belgium" target="Japan">
+  <data key="d0">1</data>
+</edge>
+<edge source="Belgium" target="Switzerland">
+  <data key="d0">3</data>
+</edge>
+<edge source="Belgium" target="Senegal">
+  <data key="d0">5</data>
+</edge>
+<edge source="Belgium" target="Brazil">
+  <data key="d0">2</data>
+</edge>
+<edge source="Belgium" target="England">
+  <data key="d0">4</data>
+</edge>
+<edge source="Costa Rica" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Costa Rica" target="Spain">
+  <data key="d0">1</data>
+</edge>
+<edge source="Costa Rica" target="France">
+  <data key="d0">1</data>
+</edge>
+<edge source="Costa Rica" target="Australia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Costa Rica" target="Portugal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Costa Rica" target="Mexico">
+  <data key="d0">1</data>
+</edge>
+<edge source="Costa Rica" target="Morocco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Costa Rica" target="Brazil">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Netherlands">
+  <data key="d0">3</data>
+</edge>
+<edge source="Canada" target="France">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Portugal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="USA">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Germany">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Ghana">
+  <data key="d0">3</data>
+</edge>
+<edge source="Canada" target="Cameroon">
+  <data key="d0">2</data>
+</edge>
+<edge source="Canada" target="Croatia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Senegal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Switzerland">
+  <data key="d0">1</data>
+</edge>
+<edge source="Canada" target="Morocco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Australia" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="Croatia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="Tunisia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="USA">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="Japan">
+  <data key="d0">1</data>
+</edge>
+<edge source="Australia" target="Poland">
+  <data key="d0">1</data>
+</edge>
+<edge source="USA" target="Uruguay">
+  <data key="d0">1</data>
+</edge>
+<edge source="USA" target="Ecuador">
+  <data key="d0">2</data>
+</edge>
+<edge source="USA" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="USA" target="Portugal">
+  <data key="d0">3</data>
+</edge>
+<edge source="USA" target="Germany">
+  <data key="d0">3</data>
+</edge>
+<edge source="USA" target="Poland">
+  <data key="d0">1</data>
+</edge>
+<edge source="USA" target="Ghana">
+  <data key="d0">2</data>
+</edge>
+<edge source="USA" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="USA" target="Croatia">
+  <data key="d0">2</data>
+</edge>
+<edge source="USA" target="Wales">
+  <data key="d0">3</data>
+</edge>
+<edge source="USA" target="Spain">
+  <data key="d0">2</data>
+</edge>
+<edge source="USA" target="Denmark">
+  <data key="d0">2</data>
+</edge>
+<edge source="USA" target="Japan">
+  <data key="d0">3</data>
+</edge>
+<edge source="USA" target="Switzerland">
+  <data key="d0">5</data>
+</edge>
+<edge source="USA" target="Senegal">
+  <data key="d0">2</data>
+</edge>
+<edge source="USA" target="Brazil">
+  <data key="d0">3</data>
+</edge>
+<edge source="USA" target="England">
+  <data key="d0">3</data>
+</edge>
+<edge source="USA" target="Morocco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Portugal" target="Uruguay">
+  <data key="d0">3</data>
+</edge>
+<edge source="Portugal" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Portugal" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="Portugal" target="Germany">
+  <data key="d0">3</data>
+</edge>
+<edge source="Portugal" target="Mexico">
+  <data key="d0">2</data>
+</edge>
+<edge source="Portugal" target="Poland">
+  <data key="d0">1</data>
+</edge>
+<edge source="Portugal" target="South Korea">
+  <data key="d0">1</data>
+</edge>
+<edge source="Portugal" target="Croatia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Portugal" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Portugal" target="Spain">
+  <data key="d0">4</data>
+</edge>
+<edge source="Portugal" target="Denmark">
+  <data key="d0">4</data>
+</edge>
+<edge source="Portugal" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Portugal" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Portugal" target="Switzerland">
+  <data key="d0">2</data>
+</edge>
+<edge source="Portugal" target="England">
+  <data key="d0">3</data>
+</edge>
+<edge source="Portugal" target="Brazil">
+  <data key="d0">3</data>
+</edge>
+<edge source="Portugal" target="Morocco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Germany" target="Uruguay">
+  <data key="d0">2</data>
+</edge>
+<edge source="Germany" target="Netherlands">
+  <data key="d0">3</data>
+</edge>
+<edge source="Germany" target="France">
+  <data key="d0">6</data>
+</edge>
+<edge source="Germany" target="Poland">
+  <data key="d0">1</data>
+</edge>
+<edge source="Germany" target="South Korea">
+  <data key="d0">1</data>
+</edge>
+<edge source="Germany" target="Ghana">
+  <data key="d0">2</data>
+</edge>
+<edge source="Germany" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Germany" target="Croatia">
+  <data key="d0">5</data>
+</edge>
+<edge source="Germany" target="Spain">
+  <data key="d0">5</data>
+</edge>
+<edge source="Germany" target="Denmark">
+  <data key="d0">3</data>
+</edge>
+<edge source="Germany" target="Japan">
+  <data key="d0">3</data>
+</edge>
+<edge source="Germany" target="Switzerland">
+  <data key="d0">5</data>
+</edge>
+<edge source="Germany" target="England">
+  <data key="d0">4</data>
+</edge>
+<edge source="Germany" target="Brazil">
+  <data key="d0">5</data>
+</edge>
+<edge source="Germany" target="Senegal">
+  <data key="d0">2</data>
+</edge>
+<edge source="Germany" target="Morocco">
+  <data key="d0">3</data>
+</edge>
+<edge source="Mexico" target="Uruguay">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mexico" target="Ecuador">
+  <data key="d0">4</data>
+</edge>
+<edge source="Mexico" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Mexico" target="Poland">
+  <data key="d0">2</data>
+</edge>
+<edge source="Mexico" target="South Korea">
+  <data key="d0">2</data>
+</edge>
+<edge source="Mexico" target="Ghana">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mexico" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mexico" target="Croatia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mexico" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mexico" target="Senegal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mexico" target="Morocco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Uruguay">
+  <data key="d0">3</data>
+</edge>
+<edge source="Poland" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="France">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="South Korea">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="Ghana">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="Saudi Arabia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Croatia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Spain">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Tunisia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="Denmark">
+  <data key="d0">3</data>
+</edge>
+<edge source="Poland" target="Iran">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="Senegal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Poland" target="Switzerland">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="Brazil">
+  <data key="d0">2</data>
+</edge>
+<edge source="Poland" target="Morocco">
+  <data key="d0">2</data>
+</edge>
+<edge source="South Korea" target="Uruguay">
+  <data key="d0">2</data>
+</edge>
+<edge source="South Korea" target="France">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Ghana">
+  <data key="d0">2</data>
+</edge>
+<edge source="South Korea" target="Cameroon">
+  <data key="d0">2</data>
+</edge>
+<edge source="South Korea" target="Croatia">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Saudi Arabia">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Japan">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Switzerland">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="Senegal">
+  <data key="d0">2</data>
+</edge>
+<edge source="South Korea" target="Brazil">
+  <data key="d0">1</data>
+</edge>
+<edge source="South Korea" target="England">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="Uruguay">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ghana" target="France">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ghana" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="Croatia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="Wales">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ghana" target="Spain">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ghana" target="Denmark">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ghana" target="Japan">
+  <data key="d0">5</data>
+</edge>
+<edge source="Ghana" target="Switzerland">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Ghana" target="Brazil">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ghana" target="England">
+  <data key="d0">2</data>
+</edge>
+<edge source="Croatia" target="Uruguay">
+  <data key="d0">3</data>
+</edge>
+<edge source="Croatia" target="Netherlands">
+  <data key="d0">3</data>
+</edge>
+<edge source="Croatia" target="France">
+  <data key="d0">6</data>
+</edge>
+<edge source="Croatia" target="Cameroon">
+  <data key="d0">3</data>
+</edge>
+<edge source="Croatia" target="Wales">
+  <data key="d0">2</data>
+</edge>
+<edge source="Croatia" target="Spain">
+  <data key="d0">4</data>
+</edge>
+<edge source="Croatia" target="Denmark">
+  <data key="d0">5</data>
+</edge>
+<edge source="Croatia" target="Iran">
+  <data key="d0">2</data>
+</edge>
+<edge source="Croatia" target="Japan">
+  <data key="d0">3</data>
+</edge>
+<edge source="Croatia" target="Switzerland">
+  <data key="d0">4</data>
+</edge>
+<edge source="Croatia" target="Senegal">
+  <data key="d0">4</data>
+</edge>
+<edge source="Croatia" target="Brazil">
+  <data key="d0">3</data>
+</edge>
+<edge source="Croatia" target="England">
+  <data key="d0">2</data>
+</edge>
+<edge source="Croatia" target="Morocco">
+  <data key="d0">3</data>
+</edge>
+<edge source="Spain" target="Uruguay">
+  <data key="d0">4</data>
+</edge>
+<edge source="Spain" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Spain" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Spain" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="Spain" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Spain" target="Denmark">
+  <data key="d0">3</data>
+</edge>
+<edge source="Spain" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Spain" target="Japan">
+  <data key="d0">1</data>
+</edge>
+<edge source="Spain" target="Switzerland">
+  <data key="d0">3</data>
+</edge>
+<edge source="Spain" target="England">
+  <data key="d0">2</data>
+</edge>
+<edge source="Spain" target="Brazil">
+  <data key="d0">5</data>
+</edge>
+<edge source="Spain" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Spain" target="Morocco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Japan" target="Uruguay">
+  <data key="d0">1</data>
+</edge>
+<edge source="Japan" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Japan" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="Japan" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Japan" target="Switzerland">
+  <data key="d0">4</data>
+</edge>
+<edge source="Japan" target="England">
+  <data key="d0">1</data>
+</edge>
+<edge source="Japan" target="Senegal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Japan" target="Brazil">
+  <data key="d0">1</data>
+</edge>
+<edge source="Switzerland" target="Uruguay">
+  <data key="d0">2</data>
+</edge>
+<edge source="Switzerland" target="Ecuador">
+  <data key="d0">1</data>
+</edge>
+<edge source="Switzerland" target="Netherlands">
+  <data key="d0">1</data>
+</edge>
+<edge source="Switzerland" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="Switzerland" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Switzerland" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Switzerland" target="Tunisia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Switzerland" target="Denmark">
+  <data key="d0">2</data>
+</edge>
+<edge source="Switzerland" target="England">
+  <data key="d0">5</data>
+</edge>
+<edge source="Switzerland" target="Brazil">
+  <data key="d0">4</data>
+</edge>
+<edge source="Switzerland" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Switzerland" target="Morocco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Brazil" target="Uruguay">
+  <data key="d0">6</data>
+</edge>
+<edge source="Brazil" target="Netherlands">
+  <data key="d0">4</data>
+</edge>
+<edge source="Brazil" target="France">
+  <data key="d0">9</data>
+</edge>
+<edge source="Brazil" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Brazil" target="Denmark">
+  <data key="d0">4</data>
+</edge>
+<edge source="Brazil" target="Senegal">
+  <data key="d0">2</data>
+</edge>
+<edge source="Brazil" target="England">
+  <data key="d0">8</data>
+</edge>
+<edge source="Brazil" target="Morocco">
+  <data key="d0">4</data>
+</edge>
+<edge source="Morocco" target="Ecuador">
+  <data key="d0">2</data>
+</edge>
+<edge source="Morocco" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Morocco" target="France">
+  <data key="d0">3</data>
+</edge>
+<edge source="Morocco" target="Saudi Arabia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Morocco" target="Cameroon">
+  <data key="d0">2</data>
+</edge>
+<edge source="Morocco" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Morocco" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Morocco" target="England">
+  <data key="d0">2</data>
+</edge>
+<edge source="Morocco" target="Senegal">
+  <data key="d0">2</data>
+</edge>
+<edge source="Uruguay" target="Netherlands">
+  <data key="d0">3</data>
+</edge>
+<edge source="Uruguay" target="France">
+  <data key="d0">6</data>
+</edge>
+<edge source="Uruguay" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Uruguay" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Uruguay" target="Denmark">
+  <data key="d0">5</data>
+</edge>
+<edge source="Uruguay" target="England">
+  <data key="d0">3</data>
+</edge>
+<edge source="Uruguay" target="Senegal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ecuador" target="Netherlands">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ecuador" target="Cameroon">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ecuador" target="Wales">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ecuador" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Netherlands" target="France">
+  <data key="d0">4</data>
+</edge>
+<edge source="Netherlands" target="Cameroon">
+  <data key="d0">3</data>
+</edge>
+<edge source="Netherlands" target="Denmark">
+  <data key="d0">4</data>
+</edge>
+<edge source="Netherlands" target="Iran">
+  <data key="d0">2</data>
+</edge>
+<edge source="Netherlands" target="England">
+  <data key="d0">3</data>
+</edge>
+<edge source="France" target="Cameroon">
+  <data key="d0">3</data>
+</edge>
+<edge source="France" target="Wales">
+  <data key="d0">2</data>
+</edge>
+<edge source="France" target="Denmark">
+  <data key="d0">5</data>
+</edge>
+<edge source="France" target="Senegal">
+  <data key="d0">5</data>
+</edge>
+<edge source="France" target="England">
+  <data key="d0">5</data>
+</edge>
+<edge source="Saudi Arabia" target="Cameroon">
+  <data key="d0">2</data>
+</edge>
+<edge source="Cameroon" target="Wales">
+  <data key="d0">2</data>
+</edge>
+<edge source="Cameroon" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Cameroon" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Cameroon" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="Wales" target="Denmark">
+  <data key="d0">2</data>
+</edge>
+<edge source="Wales" target="Senegal">
+  <data key="d0">5</data>
+</edge>
+<edge source="Wales" target="England">
+  <data key="d0">2</data>
+</edge>
+<edge source="Tunisia" target="Denmark">
+  <data key="d0">1</data>
+</edge>
+<edge source="Tunisia" target="Senegal">
+  <data key="d0">1</data>
+</edge>
+<edge source="Denmark" target="Iran">
+  <data key="d0">1</data>
+</edge>
+<edge source="Denmark" target="England">
+  <data key="d0">2</data>
+</edge>
+<edge source="Denmark" target="Senegal">
+  <data key="d0">3</data>
+</edge>
+<edge source="England" target="Senegal">
+  <data key="d0">4</data>
+</edge>
+</graph></graphml>
