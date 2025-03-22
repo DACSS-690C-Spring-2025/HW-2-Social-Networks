@@ -1,0 +1,208 @@
+---
+title: "HW_2"
+author: "Nanci Kopecky"
+date: '`r Sys.Date()`'
+output: html_document
+---
+<br> 
+<center><img src="https://github.com/DACSS-CSSmeths/guidelines/blob/main/pics/small_logo_ccs_meths.jpg?raw=true" width="700"></center>
+_____
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(igraph)
+library(ggplot2)
+library(ggrepel)
+```
+
+# Exploring Social Networks
+
+## Peruvian Data
+
+```{r}
+# Read in and prepare data
+rm(list = ls())
+GitLink='https://github.com/DACSS-690C-Spring-2025/HW-2-Social-Networks/raw/refs/heads/main/figueroa_network.index.graphml'
+Peruvians <- read_graph(GitLink, format = 'graphml')
+is_connected(Peruvians) # Not connected
+```
+
+```{r}
+# Extract the largest connected component, giant component
+components <- components(Peruvians)  # Find all components
+components
+giant_comp_nodes <- which(components$membership == which.max(components$csize))
+Peruvians <- induced_subgraph(Peruvians, giant_comp_nodes)  # Only keep giant component
+
+# Exploring key features of giant component
+is_connected(Peruvians) 
+summary(Peruvians) # 28 families and 133 relationships
+edge_density(Peruvians) # .35 is moderately connected network
+
+# Longest, shortest path connecting 5 families with 4 edges
+diameter(Peruvians)
+farthest_vertices(Peruvians)
+get_diameter(Peruvians)
+```
+```{r}
+V(Peruvians)$Multinacional
+E(Peruvians)$weight
+V(Peruvians)$name=V(Peruvians)$id
+```
+```{r}
+# Overview of Network
+cat("Graph Connected:", is_connected(Peruvians), "\n")
+cat("Number of Families:", vcount(Peruvians), "\n")
+cat("Number of Relationships:", ecount(Peruvians), "\n")
+cat("Edge Density:", edge_density(Peruvians), "\n")
+
+# Find nodes in diameter
+diameter_nodes <- farthest_vertices(Peruvians)
+cat("Nodes in the Diameter Path:\n", paste(diameter_nodes$vertices$name, collapse = " → "), "\n")
+
+# Highlight diameter edges
+set.seed(111)
+diameterColor <- rep("black", ecount(Peruvians))
+diameterColor[E(Peruvians, path = get_diameter(Peruvians))] <- "red"
+
+plot.igraph(Peruvians,
+            layout = layout_with_kk(Peruvians),
+            edge.color = diameterColor,
+            vertex.color = "lightblue",
+            vertex.label = V(Peruvians)$name,  
+            vertex.size = 6,
+            vertex.label.cex = 0.8,
+            vertex.label.color = "black",
+            edge.arrow.size = 0.4,
+            edge.width = 0.8)
+
+# Compute betweenness, centrality
+betweenness_scores <- betweenness(Peruvians, normalized = TRUE)
+top_betweenness <- names(sort(betweenness_scores, decreasing = TRUE))[1:5]
+
+# Highlight betweenness nodes
+node_colors <- ifelse(V(Peruvians)$name %in% top_betweenness, "red", "lightblue")
+
+plot.igraph(Peruvians,
+            layout = layout_with_kk(Peruvians),
+            vertex.color = node_colors,
+            vertex.label = V(Peruvians)$name,  
+            vertex.size = 8,
+            vertex.label.cex = 0.8,
+            vertex.label.color = "black",
+            edge.arrow.size = 0.4,
+            edge.width = 0.8)
+
+# Print top betweenness nodes
+cat("Top 5 Families by Betweenness Centrality: ", paste(top_betweenness, collapse = ", "), "\n")
+```
+## Seattle Data
+```{r}
+# Read in and prepare data 
+GitLink='https://github.com/DACSS-690C-Spring-2025/HW-2-Social-Networks/raw/refs/heads/main/seattle_top_people.index.graphml'
+
+Seattleites <- read_graph(GitLink, format = 'graphml')
+```
+
+```{r}
+# Exploring network
+summary(Seattleites) # Directed and weighted, 46 people, 588 connections
+is_connected(Seattleites) # Connected
+```
+
+```{r}
+# Assign name to id
+V(Seattleites)$name <- V(Seattleites)$id  
+
+# Link analysis
+Lk_hub <- hub_score(Seattleites)$vector
+Lk_auth <- authority_score(Seattleites)$vector
+Lk_page <- page_rank(Seattleites)$vector
+
+# Confirming vector length for graph
+cat("Length of V(Seattleites)$name: ", length(V(Seattleites)$name), "\n")
+cat("Length of Lk_hub: ", length(Lk_hub), "\n")
+cat("Length of Lk_auth: ", length(Lk_auth), "\n")
+cat("Length of Lk_page: ", length(Lk_page), "\n")
+```
+
+```{r}
+# Create data frame
+LinkMeasures <- data.frame(
+  Person = V(Seattleites)$name,
+  Hub = Lk_hub,
+  Authority = Lk_auth,
+  PageRank = Lk_page,
+  stringsAsFactors = FALSE
+)
+row.names(LinkMeasures) <- NULL # Remove row names
+print(head(LinkMeasures))
+```
+```{r}
+# Scatterplot
+ggplot(LinkMeasures, aes(x = Hub, y = Authority)) +
+  theme_classic() +
+  geom_point() +
+  geom_label_repel(aes(label = Person, fill = PageRank), color = 'white', size = 3) +
+  scale_fill_gradient2(low = "red", mid = 'grey50', high = "darkgreen", midpoint = 0.05) +
+  labs(title = "Link Analysis: Hubs, Authorities, and PageRank",
+       x = "Hub Score",
+       y = "Authority Score",
+       fill = "PageRank")
+```
+
+```{r}
+# Find minimum number of nodes to split
+min_nodes_to_split <- vertex_connectivity(Seattleites) # No single node will disconnect network
+min_nodes_to_split
+critical_nodes <- articulation_points(Seattleites) # Removing a single node will not break network
+critical_nodes
+components(Seattleites)
+cat("No critical nodes found, network is highly robust.")
+```
+## Fifa Data
+```{r}
+# Read in and prepare data 
+GitLink='https://github.com/DACSS-690C-Spring-2025/HW-2-Social-Networks/raw/refs/heads/main/fifa_country_projected.index.graphml'
+
+Fifa_data <- read_graph(GitLink, format = 'graphml')
+```
+
+```{r}
+# Exploring network
+summary(Fifa_data) # Directed and weighted, 46 people, 588 connections
+is_connected(Fifa_data) # Connected
+```
+```{r}
+# Calculate density
+fifa_density <- edge_density(Fifa_data)
+cat("The density of the FIFA network is: ", fifa_density, "\n")
+
+# Calculate centrality measures
+degree_centrality <- degree(Fifa_data, normalized = TRUE)
+closeness_centrality <- closeness(Fifa_data, normalized = TRUE)
+betweenness_centrality <- betweenness(Fifa_data, normalized = TRUE)
+
+# Create data frame
+Centrality_measures <- data.frame(
+  Player = V(Fifa_data)$id,
+  Degree = degree_centrality,
+  Closeness = closeness_centrality,
+  Betweenness = betweenness_centrality,
+  stringsAsFactors = FALSE
+)
+
+print(head(Centrality_measures))
+
+# Graph
+ggplot(Centrality_measures, aes(x = Closeness, y = Betweenness)) +
+  geom_point(aes(color = Degree), size = 3) +
+  geom_label_repel(aes(label = Player), max.overlaps = 10) +
+  scale_color_gradient2(low = "red", mid = "grey", high = "darkgreen", midpoint = 0.3) +
+  theme_minimal() +
+  labs(title = "Centrality Measures of FIFA Network",
+       x = "Closeness Centrality",
+       y = "Betweenness Centrality",
+       color = "Degree Centrality")
+
+```
+
